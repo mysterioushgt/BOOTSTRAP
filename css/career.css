@@ -1,0 +1,126 @@
+.s{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.m{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.a{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.b{
+    padding: 2%;
+    padding-right: 85px;
+    padding-left: 85px;
+}
+.c{
+    padding-right: 65px;
+}
+.d{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.x{
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fbac29
+}
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+.n{
+    background: url(https://firstfiddle.in/assets/images/outletbanner.png);
+    width: 100%;
+}
+.g{
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+.i{
+    line-height: 20px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.p{
+    letter-spacing: 15px;
+}
+.m{
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.banner{
+    background-image: url(https://firstfiddle.in/assets/images/new-careers-1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+}
+.text1{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+    padding-top: 40vh;
+    font-family: 'prague';
+}
+
+nav .weblogo{
+    width: 65px;
+}
+.navbar{
+    background: #00000082!important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.moblogo{
+    display: none;
+ }
+
+@media(max-width: 768px)
+{
+ .moblogo{
+    display: block;
+ }
+ .weblogo{
+  display: none;
+ }
+ .navbar{
+  background: #fcb21b!important;
+ }
+ .img12{
+    margin-top: 78px;
+ }
+}

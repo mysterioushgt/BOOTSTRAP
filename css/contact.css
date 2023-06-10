@@ -1,0 +1,97 @@
+.banner{
+    background-image: url(https://firstfiddle.in/assets/images/CONTACT-US.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+}
+.text1{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+    padding-top: 40vh;
+    font-family: 'prague';
+}
+
+.contacts{
+    padding-right: 70px;
+    padding-left: 70px;
+    width: 100%;
+}
+.a{
+    padding: 3%;
+}
+.contact-us-2{
+    padding: 3%;
+}
+.b{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer img{
+    width: 50%;
+    margin-top: 30px;
+}
+.n{
+    background: url(https://firstfiddle.in/assets/images/outletbanner.png);
+    width: 100%;
+}
+.g{
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+.i{
+    line-height: 20px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.p{
+    letter-spacing: 15px;
+}
+.m{
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+nav .weblogo{
+    width: 65px;
+}
+.navbar{
+    background: #00000082!important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.moblogo{
+    display: none;
+ }
+
+@media(max-width: 768px)
+{
+ .moblogo{
+    display: block;
+ }
+ .weblogo{
+  display: none;
+ }
+ .navbar{
+  background: #fcb21b!important;
+ }
+ .img12{
+    margin-top: 78px;
+ }
+}
